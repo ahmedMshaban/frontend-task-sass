@@ -1,0 +1,112 @@
+$white: #fff;
+$black: #000;
+@import url(https://fonts.googleapis.com/css?family= Roboto: 400, 900);
+$font-main: 'Roboto', sans-serif;
+/*General Content
+------------------------------------------------*/
+img {
+    max-width: 100%;
+}
+
+.continer {
+    margin: 0.1em;
+}
+
+.inner {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+.bagus, .year-warranty {
+    margin: 0;
+}
+
+.ski-club {
+    p {
+        margin-top: -2em;
+    }
+}
+
+.subscribe {
+    h4, p {
+        @extend.center;
+    }
+}
+
+input {
+    border: 0;
+    margin: auto 0;
+    @extend.center;
+}
+
+ul {
+    list-style-type: none;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    li {
+        display: inline;
+        margin-right: 0.2em;
+        border: solid 1px;
+        background-color: $black;
+        padding: 0.2em 0.4em 0.1em 0.4em;
+    }
+}
+
+/*Typography
+------------------------------------------------*/
+body {
+    font-family: $font-main;
+    margin: 0;
+}
+
+.fa {
+    color: $white;
+}
+
+.ski-club {
+    h3, p {
+        color: $white;
+    }
+}
+
+.bagus {
+    h3, p {
+        color: $white;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+/*Header
+------------------------------------------------*/
+h2 {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+h3 {
+    position: absolute;
+    top: 0.1em;
+    margin: 0;
+    margin-top: 0.25em;
+}
+
+/*Images & Media
+------------------------------------------------*/
+.image {
+    position: relative;
+    margin-right: 0.5em;
+}
+
+.bagus {
+    img {
+        -webkit-filter: brightness(60%);
+    }
+}

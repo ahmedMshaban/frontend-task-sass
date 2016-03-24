@@ -1,0 +1,211 @@
+@media screen and(max-width: 500px) {
+    .cover {
+        img {
+            height: 4em;
+            width: 100%;
+        };
+    }
+
+    .content {
+        margin-top: 2.25em;
+        margin-bottom: 4em;
+        h2 {
+            font-size: 2em;
+        }
+    }
+
+    .row {
+        .divCheckbox {
+            display: none;
+        }
+
+        .image {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+
+            .break-line {
+                display: inline;
+            }
+
+            p {
+                position: absolute;
+                top: 5em;
+            }
+        }
+
+        .easy-returns {
+            margin: 0;
+            margin-bottom: 0.2em;
+            h3 {
+                font-size: 1.55em;
+            }
+
+            p {
+                font-size: 0.65em;
+            }
+
+            img {
+                height: 15em;
+            }
+        }
+
+        .year-warranty {
+          @extend .easy-returns;
+        }
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 7em;
+        margin-bottom: 2em;
+        .subscribe {
+            padding: 0;
+            h4 {
+                text-align: center;
+                font-size: 1.5em;
+                position: relative;
+                bottom: 3.2em;
+                margin: 0;
+            }
+
+            input {
+                position: relative;
+                bottom: 5.5em;
+                border-bottom: solid 2px $black;
+                display: block;
+                margin: auto;
+                padding-bottom: 0.5em;
+                padding-left: 6em;
+                padding-right: 6em;
+            }
+
+            .subscribe-buttom {
+                padding: 0.5em;
+                display: inline-block;
+                text-align: center;
+                position: relative;
+                bottom: 3em;
+                border: solid 4px $black;
+            }
+        }
+
+        .follow {
+            h4 {
+                text-align: center;
+                font-size: 1.5em;
+                position: relative;
+                margin: 0;
+                margin-bottom: 0.25em;
+            }
+
+            ul {
+                li {
+                    font-size: 0.7em;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    span {
+        display: block;
+    }
+}
+
+@media screen and(min-width: 501px) {
+    .content {
+        margin-top: 0.25em;
+        margin-bottom: 1em;
+        h2 {
+            font-size: 2.2em;
+            font-weight: 900;
+        };
+    }
+
+    .cover {
+        img {
+            height: 9em;
+            width: 100%;
+        }
+    }
+
+    .break-line {
+        display: block;
+    }
+
+    .year-warranty, .bagus {
+        margin-right: 0;
+    }
+
+    .image {
+        margin-bottom: 0.5em;
+        img {
+            height: 14em;
+            width: 100%;
+        }
+
+        h3 {
+            font-size: 2em;
+        }
+
+        p {
+            position: absolute;
+            top: 6em;
+        }
+    }
+
+    .footer {
+        margin-top: 5em;
+        margin-bottom: 1em;
+        .subscribe {
+            h4 {
+                font-size: 2.5em;
+                margin: 0;
+            }
+
+            .input {
+                padding-bottom: 0.625em;
+                height: 1.250em;
+                text-align: center;
+                width: 100%;
+                input {
+                    padding: 0;
+                    border-bottom: solid 1px $black;
+                    padding-bottom: 0.900em;
+                    margin-right: 0.5em;
+                }
+
+                .subscribe-buttom {
+                    border: solid 4px $black;
+                    text-align: center;
+                    padding: 0.625em 0.313em;
+                }
+
+                #placeholader {
+                    width: 50%;
+                    padding-top: 1.2em;
+                };
+            }
+        }
+
+        .follow {
+            text-align: center;
+            h4 {
+                margin: 0;
+                font-size: 2.5em;
+                text-align: center;
+            }
+
+            ul {
+                li {
+                    display: inline-block;
+                    font-size: 1.2em;
+                    margin-right: 0.1em;
+                }
+            }
+        }
+    }
+
+}

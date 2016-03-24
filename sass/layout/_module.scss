@@ -1,0 +1,22 @@
+.continer {
+    flex-wrap: wrap;
+}
+.row, .footer, .cover, .content {
+    display: flex;
+    width: 100%;
+}
+
+@media screen and(max-width: 500px) {
+    .row, .footer {
+        flex-wrap: wrap;
+    }
+    .subscribe, .follow, .image {
+        width: 100%;
+    }
+}
+
+@media screen and(min-width: 501px) {
+    .subscribe, .follow, .image {
+        width: 50%;
+    }
+}
